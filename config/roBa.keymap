@@ -16,29 +16,19 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <1 2>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <18 19>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        hi {
+            bindings = <&kp MINUS>;
+            key-positions = <7 8>;
         };
     };
 
@@ -76,10 +66,10 @@
 
         NUMBER {
             bindings = <
-&kp N1    &kp N2     &kp N3      &kp N4      &kp N5                         &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-&kp LGUI  &kp LBKT   &kp LS(N9)  &kp LS(N0)  &kp RBKT  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp SEMI
-&kp SEMI  &kp EQUAL  &trans      &kp FSLH    &kp APOS  &trans      &trans   &trans  &trans  &trans  &trans  &kp FSLH
-&trans    &trans     &trans      &trans      &trans    &trans      &trans   &trans                          &trans
+&kp N1    &kp N2     &kp N3      &kp N4      &kp N5                        &kp N6    &kp N7    &kp N8  &kp N9     &kp N0
+&kp LGUI  &kp LBKT   &kp LS(N9)  &kp LS(N0)  &kp RBKT  &trans      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SEMI
+&kp SEMI  &kp EQUAL  &trans      &kp FSLH    &kp APOS  &trans      &trans  &trans    &trans    &trans  &trans     &kp FSLH
+&trans    &trans     &trans      &trans      &trans    &trans      &trans  &trans                                 &trans
             >;
         };
 
