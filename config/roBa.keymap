@@ -57,10 +57,10 @@
 
         default_layer {
             bindings = <
-&kp SQT        &kp COMMA  &kp PERIOD  &kp V              &kp X                                              &kp F  &kp G  &kp K  &kp R  &mt LEFT_ALT L
-&kp E          &kp O      &lt 2 A     &lt 3 U            &kp I               &kp DELETE      &kp BACKSPACE  &kp D  &kp H  &kp T  &kp N  &mt LEFT_GUI S
-&kp SEMICOLON  &kp Q      &kp J       &kp W              &kp C               &trans          &trans         &kp B  &kp M  &kp Y  &kp P  &lt 3 Z
-&mo 4          &trans     &trans      &mt LCTRL LS(TAB)  &mt LEFT_SHIFT TAB  &kp SPACE       &kp ENTER      &mo 1                       &kp LC(LS(LG(NUMBER_4)))
+&kp SQT         &kp COMMA  &kp PERIOD  &kp V              &kp X                                              &kp F  &kp G  &kp K  &kp R  &mt LEFT_ALT L
+&mt LEFT_GUI E  &kp O      &lt 2 A     &lt 3 U            &kp I               &kp DELETE      &kp BACKSPACE  &kp D  &kp H  &kp T  &kp N  &mt LEFT_GUI S
+&kp SEMICOLON   &kp Q      &kp J       &kp W              &kp C               &trans          &trans         &kp B  &kp M  &kp Y  &kp P  &lt 3 Z
+&mo 4           &trans     &trans      &mt LCTRL LS(TAB)  &mt LEFT_SHIFT TAB  &kp SPACE       &kp ENTER      &mo 1                       &kp LC(LS(LG(NUMBER_4)))
             >;
         };
 
