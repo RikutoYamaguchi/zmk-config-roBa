@@ -67,9 +67,9 @@
         NUMBER {
             bindings = <
 &kp N1    &kp N2     &kp N3      &kp N4          &kp N5                                &kp N6    &kp N7    &kp N8  &kp N9     &kp N0
-&kp LGUI  &kp LBKT   &kp LS(N9)  &kp LS(N0)      &kp RBKT  &trans              &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SEMI
-&kp SEMI  &kp EQUAL  &trans      &kp FSLH        &kp APOS  &trans              &trans  &trans    &trans    &trans  &trans     &kp FSLH
-&trans    &trans     &trans      &kp LANGUAGE_2  &trans    &kp LANGUAGE_1      &trans  &trans                                 &trans
+&kp LGUI  &kp LBKT   &kp LS(N9)  &kp LS(N0)      &kp RBKT  &none              &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SEMI
+&kp SEMI  &kp EQUAL  &none      &kp FSLH        &kp APOS  &none              &none  &none    &none    &none  &none     &kp FSLH
+&none    &none     &none      &kp LANGUAGE_2  &none    &kp LANGUAGE_1      &none  &none                                 &none
             >;
         };
 
