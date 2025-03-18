@@ -9,6 +9,18 @@
     quick-tap-ms = <0>;
 };
 
+&mmv {
+    time-to-max-speed-ms = <500>;
+};
+
+#define U_MOUSE_SCROLL_MAX 10
+#undef SCROLL_UP
+#undef SCROLL_DOWN
+#undef SCROLL_LEFT
+#undef SCROLL_RIGHT
+#define SCROLL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
+#define SCROLL_DOWN SCROLL_VERT(-U_MOUSE_SCROLL_MAX)
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -72,8 +84,8 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &kp C_VOLUME_UP    &kp C_BRI_UP   &trans                      &trans                    &trans                &trans                 &trans                     &trans
-&trans  &trans  &kp C_VOLUME_DOWN  &kp C_BRI_DEC  &trans  &trans      &trans  &kp LS(LG(LEFT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &trans
+&kp SCROLL_UP  &trans  &kp C_VOLUME_UP    &kp C_BRI_UP   &trans                      &trans                    &trans                &trans                 &trans                     &trans
+&kp SCROLL_DOWN  &trans  &kp C_VOLUME_DOWN  &kp C_BRI_DEC  &trans  &trans      &trans  &kp LS(LG(LEFT_BRACKET))  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LS(LG(RIGHT_BRACKET))  &trans
 &trans  &trans  &trans             &trans         &trans  &trans      &trans  &trans                    &trans                &trans                 &trans                     &trans
 &trans  &trans  &trans             &trans         &trans  &trans      &trans  &trans                                                                                            &trans
             >;
