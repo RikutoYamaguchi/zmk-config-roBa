@@ -66,10 +66,10 @@
 
         NUMBER {
             bindings = <
-&kp N1    &kp N2         &kp N3      &kp N4          &kp N5                                 &kp N6    &kp N7    &kp N8  &kp N9     &kp N0
-&kp LGUI  &kp LBKT       &kp LS(N9)  &kp LS(N0)      &kp RBKT   &trans              &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SEMI
-&kp SEMI  &kp BACKSLASH  &trans      &kp EQUAL       &kp GRAVE  &trans              &trans  &trans    &trans    &trans  &kp EQUAL  &kp FSLH
-&trans    &trans         &trans      &kp LANGUAGE_2  &trans     &kp LANGUAGE_1      &trans  &trans                                 &trans
+&kp N1    &kp N2    &kp N3      &kp N4          &kp N5                                     &kp N6    &kp N7    &kp N8         &kp N9            &kp N0
+&kp LGUI  &kp LBKT  &kp LS(N9)  &kp LS(N0)      &kp RBKT       &trans              &trans  &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT         &kp SEMI
+&kp SEMI  &trans    &kp EQUAL   &kp GRAVE       &kp BACKSLASH  &trans              &trans  &trans    &trans    &kp LESS_THAN  &kp GREATER_THAN  &kp FSLH
+&trans    &trans    &trans      &kp LANGUAGE_2  &trans         &kp LANGUAGE_1      &trans  &trans                                               &trans
             >;
         };
 
